@@ -37,7 +37,7 @@ An AI-powered crop recommendation system that suggests the most suitable crops b
 
 ## 📊 Sample Output
 
-```
+```text
 🌍 State: Uttar Pradesh  
 🏙️ District: Prayagraj  
 
@@ -57,9 +57,11 @@ An AI-powered crop recommendation system that suggests the most suitable crops b
 
 ## 📸 Application Preview
 
-Crop Analysis/
-    assets/
-        Output.png   ✅
+> Below is the real-time output of the Smart Crop Recommendation System:
+
+<p align="center">
+  <img src="assets/Output.png" alt="App Output" width="800"/>
+</p>
 
 ---
 
@@ -74,7 +76,7 @@ streamlit run app.py
 
 ## 📁 Project Structure
 
-```
+```text
 Crop Analysis/
 │
 ├── app.py
