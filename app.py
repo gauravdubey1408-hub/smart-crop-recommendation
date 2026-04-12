@@ -124,7 +124,7 @@ if st.button("Predict Crop"):
 
             profit = calculate_profit(crop)
             if profit:
-                st.success(f"💰 Estimated Profit: ₹{profit}")
+                st.success(f"💰 Estimated Profit: ₹{profit} in one acer .")
 
         st.success(f"📊 Model Accuracy: {accuracy*100:.2f}%")
         st.info(f"🌡️ Temp: {temp}°C | 💧 Humidity: {humidity}%")
