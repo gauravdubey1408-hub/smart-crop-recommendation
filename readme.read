@@ -1,0 +1,42 @@
+# 🌾 Smart Crop Recommendation System (AI Pro)
+
+An AI-powered crop recommendation system that suggests the most suitable crops based on environmental conditions, soil parameters, and real-time weather data.
+
+## 🚀 Features
+
+* 🌍 **State & District Selection** (All India coverage)
+* 🌡️ **Real-Time Weather Integration** (Temperature & Humidity)
+* 🎯 **Top 3 Crop Recommendations** using Machine Learning
+* 📊 **Model Accuracy Display**
+* 🧠 **Hybrid AI System** (ML + Agriculture Rules for realistic output)
+
+## 🛠️ Tech Stack
+
+* Python 🐍
+* Streamlit 🎨
+* Scikit-learn 🤖
+* Pandas 📊
+* OpenWeatherMap API 🌦️
+
+## 📌 How It Works
+
+1. User selects **State & District**
+2. System fetches **real-time weather data**
+3. User inputs soil parameters (N, P, K, pH, rainfall)
+4. ML model predicts **Top 3 suitable crops**
+5. Output is refined using **realistic agricultural rules**
+
+## ▶️ Run Locally
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+## 🌱 Use Case
+
+This system helps farmers and agricultural planners to make data-driven decisions for crop selection, improving productivity and sustainability.
+
+---
+
+⭐ If you like this project, don't forget to star the repo!
