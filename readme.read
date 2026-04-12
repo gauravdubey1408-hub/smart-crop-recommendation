@@ -59,10 +59,7 @@ An AI-powered crop recommendation system that suggests the most suitable crops b
 
 > Below is the real-time output of the Smart Crop Recommendation System:
 
-<p align="center">
-  <img src="assets/Output.png" alt="App Output" width="800"/>
-</p>
-
+![Dashboard](Output.png)
 ---
 
 ## ▶️ Run Locally
