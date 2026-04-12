@@ -1,10 +1,4 @@
-Crop Analysis/
-│
-├── app.py
-├── model.py
-├── weather.py
-├── Crop.csv
-├── india_districts.csv
-├── README.md
-└── assets/
-     └── output.png   ✅
+streamlit
+pandas
+scikit-learn
+requests
