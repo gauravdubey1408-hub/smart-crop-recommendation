@@ -2,13 +2,18 @@
 
 An AI-powered crop recommendation system that suggests the most suitable crops based on environmental conditions, soil parameters, and real-time weather data.
 
+---
+
 ## 🚀 Features
 
 * 🌍 **State & District Selection** (All India coverage)
+* 🏙️ **Dynamic Dropdown UI** (State → District auto update)
 * 🌡️ **Real-Time Weather Integration** (Temperature & Humidity)
-* 🎯 **Top 3 Crop Recommendations** using Machine Learning
+* 🎯 **Top Crop Recommendations** using Machine Learning
+* 🧠 **Hybrid System** (ML + Agriculture Rules for realistic output)
 * 📊 **Model Accuracy Display**
-* 🧠 **Hybrid AI System** (ML + Agriculture Rules for realistic output)
+
+---
 
 ## 🛠️ Tech Stack
 
@@ -18,13 +23,45 @@ An AI-powered crop recommendation system that suggests the most suitable crops b
 * Pandas 📊
 * OpenWeatherMap API 🌦️
 
+---
+
 ## 📌 How It Works
 
 1. User selects **State & District**
 2. System fetches **real-time weather data**
-3. User inputs soil parameters (N, P, K, pH, rainfall)
-4. ML model predicts **Top 3 suitable crops**
+3. User inputs soil parameters (Rainfall, N, P, K, pH)
+4. ML model predicts **Top crops**
 5. Output is refined using **realistic agricultural rules**
+
+---
+
+## 📊 Sample Output
+
+```
+🌍 State: Uttar Pradesh  
+🏙️ District: Prayagraj  
+
+🌡️ Temperature: 29°C  
+💧 Humidity: 78%  
+
+🌾 Recommended Crops:
+
+👉 Rice  
+👉 Sugarcane  
+👉 Maize  
+
+📊 Model Accuracy: 89.30%
+```
+
+---
+
+## 📸 Application Preview
+
+<p align="center">
+  <img src="Output.png" width="700"/>
+</p>
+
+---
 
 ## ▶️ Run Locally
 
@@ -33,10 +70,44 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## 🌱 Use Case
+---
 
-This system helps farmers and agricultural planners to make data-driven decisions for crop selection, improving productivity and sustainability.
+## 📁 Project Structure
+
+```
+Crop Analysis/
+│
+├── app.py
+├── model.py
+├── weather.py
+├── Crop.csv
+├── india_districts.csv
+├── requirements.txt
+├── README.md
+└── assets/
+     └── output.png
+```
 
 ---
 
-⭐ If you like this project, don't forget to star the repo!
+## 🌱 Use Case
+
+This system helps farmers, students, and agricultural planners to make data-driven decisions for crop selection, improving productivity and sustainability.
+
+---
+
+## ⚠️ Note
+
+* Weather data is fetched using OpenWeatherMap API
+* Dataset is realistic but not official government data
+* Results are AI-based suggestions (not guaranteed outcomes)
+
+---
+
+## 👨‍💻 Author
+
+Developed by **Gaurav Dubey**
+
+---
+
+⭐ If you like this project, don't forget to star the repository!
