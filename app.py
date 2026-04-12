@@ -52,7 +52,7 @@ def load_model():
 model, accuracy = load_model()
 
 # ------------------ UI ------------------
-st.set_page_config(page_title="Smart Crop AI", page_icon="🌾", layout="wide")
+st.set_page_config(page_title="Smart Crops Recommendation", page_icon="🌾", layout="wide")
 st.title("🌾 Smart Crop Recommendation System (AUTO + PROFIT AI)")
 
 # ------------------ LOAD LOCATION DATA ------------------

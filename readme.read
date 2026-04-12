@@ -6,17 +6,17 @@ A machine learning-powered web application that recommends the most suitable cro
 
 ## 🚀 Live Demo
 
-👉 (Add your deployed link here)
+👉 ("https://smart-crop-recommendation-gphxrem9nkbdwfxhykq93c.streamlit.app/")
 
 ---
 
-## 📌 Overview
+📌 Overview
 
 This project provides an intelligent solution for crop selection by combining machine learning, real-time weather data, and agricultural rules. Users can select their location (state & district), input soil parameters, and get accurate crop recommendations through a clean and interactive interface.
 
 ---
 
-## ✨ Features
+✨ Features
 
 * 🌍 Location-based selection (State & District dropdown)
 * 🌡️ Real-time weather integration (Temperature & Humidity)
@@ -41,7 +41,7 @@ This project provides an intelligent solution for crop selection by combining ma
 
 ---
 
-## 📸 Preview
+📸 Preview
 
 ![Dashboard](Output.png)
 
@@ -49,20 +49,20 @@ This project provides an intelligent solution for crop selection by combining ma
 
 ## ⚙️ Installation & Setup
 
-### 1️⃣ Clone the repository
+1️⃣ Clone the repository
 
 ```bash
 git clone https://github.com/your-username/smart-crop-recommendation.git
 cd smart-crop-recommendation
 ```
 
-### 2️⃣ Install dependencies
+2️⃣ Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Add API Key
+3️⃣ Add API Key
 
 Edit `weather.py` and add your OpenWeatherMap API key:
 
@@ -70,7 +70,7 @@ Edit `weather.py` and add your OpenWeatherMap API key:
 API_KEY = "your_api_key_here"
 ```
 
-### 4️⃣ Run the app
+4️⃣ Run the app
 
 ```bash
 streamlit run app.py
@@ -78,7 +78,7 @@ streamlit run app.py
 
 ---
 
-## 📁 Project Structure
+📁 Project Structure
 
 ```bash
 Crop Analysis/
@@ -96,7 +96,7 @@ Crop Analysis/
 
 ---
 
-## 🧠 How It Works
+🧠 How It Works
 
 1. User selects **State & District**
 2. App fetches **real-time weather data**
@@ -106,7 +106,7 @@ Crop Analysis/
 
 ---
 
-## 🌱 Use Case
+🌱 Use Case
 
 * Helps farmers choose the best crops
 * Useful for agriculture students & research
@@ -114,17 +114,16 @@ Crop Analysis/
 
 ---
 
-## ⚠️ Disclaimer
+⚠️ Disclaimer
 
 * Predictions are AI-based and may not be 100% accurate
 * Dataset is realistic but not official government data
 
 ---
 
-## 👨‍💻 Author
+👨‍💻 Author
 
 Developed by **Gaurav Dubey**
 
----
 
-⭐ If you found this project helpful, don’t forget to star the repository!
+	
