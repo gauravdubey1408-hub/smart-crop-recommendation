@@ -1,71 +1,78 @@
 # 🌾 Smart Crop Recommendation System (AI Pro)
 
-An AI-powered crop recommendation system that suggests the most suitable crops based on environmental conditions, soil parameters, and real-time weather data.
+A machine learning-powered web application that recommends the most suitable crops based on soil nutrients, environmental conditions, and real-time weather data using an interactive dashboard.
 
 ---
 
-## 🚀 Features
+## 🚀 Live Demo
 
-* 🌍 **State & District Selection** (All India coverage)
-* 🏙️ **Dynamic Dropdown UI** (State → District auto update)
-* 🌡️ **Real-Time Weather Integration** (Temperature & Humidity)
-* 🎯 **Top Crop Recommendations** using Machine Learning
-* 🧠 **Hybrid System** (ML + Agriculture Rules for realistic output)
-* 📊 **Model Accuracy Display**
+👉 (Add your deployed link here)
+
+---
+
+## 📌 Overview
+
+This project provides an intelligent solution for crop selection by combining machine learning, real-time weather data, and agricultural rules. Users can select their location (state & district), input soil parameters, and get accurate crop recommendations through a clean and interactive interface.
+
+---
+
+## ✨ Features
+
+* 🌍 Location-based selection (State & District dropdown)
+* 🌡️ Real-time weather integration (Temperature & Humidity)
+* 🤖 Machine Learning-based crop prediction (Gradient Boosting)
+* 🎯 Top 3 crop recommendations
+* 🌱 Realistic filtering using agricultural rules
+* 📊 Model accuracy display
+* ⚡ Fast and responsive UI using Streamlit
 
 ---
 
 ## 🛠️ Tech Stack
 
-* Python 🐍
-* Streamlit 🎨
-* Scikit-learn 🤖
-* Pandas 📊
-* OpenWeatherMap API 🌦️
+| Category      | Tools Used                       |
+| ------------- | -------------------------------- |
+| Language      | Python                           |
+| Framework     | Streamlit                        |
+| Data Handling | Pandas, NumPy                    |
+| ML Model      | Scikit-learn (Gradient Boosting) |
+| API           | OpenWeatherMap                   |
+| Visualization | Streamlit UI                     |
 
 ---
 
-## 📌 How It Works
+## 📸 Preview
 
-1. User selects **State & District**
-2. System fetches **real-time weather data**
-3. User inputs soil parameters (Rainfall, N, P, K, pH)
-4. ML model predicts **Top crops**
-5. Output is refined using **realistic agricultural rules**
+![Dashboard](assets/Output.png)
 
 ---
 
-## 📊 Sample Output
+## ⚙️ Installation & Setup
 
-```text
-🌍 State: Uttar Pradesh  
-🏙️ District: Prayagraj  
+### 1️⃣ Clone the repository
 
-🌡️ Temperature: 29°C  
-💧 Humidity: 78%  
-
-🌾 Recommended Crops:
-
-👉 Rice  
-👉 Sugarcane  
-👉 Maize  
-
-📊 Model Accuracy: 89.30%
+```bash
+git clone https://github.com/your-username/smart-crop-recommendation.git
+cd smart-crop-recommendation
 ```
 
----
-
-## 📸 Application Preview
-
-> Below is the real-time output of the Smart Crop Recommendation System:
-
-![Dashboard](Output.png)
----
-
-## ▶️ Run Locally
+### 2️⃣ Install dependencies
 
 ```bash
 pip install -r requirements.txt
+```
+
+### 3️⃣ Add API Key
+
+Edit `weather.py` and add your OpenWeatherMap API key:
+
+```python
+API_KEY = "your_api_key_here"
+```
+
+### 4️⃣ Run the app
+
+```bash
 streamlit run app.py
 ```
 
@@ -73,7 +80,7 @@ streamlit run app.py
 
 ## 📁 Project Structure
 
-```text
+```bash
 Crop Analysis/
 │
 ├── app.py
@@ -89,17 +96,28 @@ Crop Analysis/
 
 ---
 
-## 🌱 Use Case
+## 🧠 How It Works
 
-This system helps farmers, students, and agricultural planners to make data-driven decisions for crop selection, improving productivity and sustainability.
+1. User selects **State & District**
+2. App fetches **real-time weather data**
+3. User inputs soil parameters (N, P, K, pH, rainfall)
+4. ML model predicts **Top crops**
+5. Output is refined using **agriculture-based rules**
 
 ---
 
-## ⚠️ Note
+## 🌱 Use Case
 
-* Weather data is fetched using OpenWeatherMap API
+* Helps farmers choose the best crops
+* Useful for agriculture students & research
+* Supports data-driven farming decisions
+
+---
+
+## ⚠️ Disclaimer
+
+* Predictions are AI-based and may not be 100% accurate
 * Dataset is realistic but not official government data
-* Results are AI-based suggestions (not guaranteed outcomes)
 
 ---
 
@@ -109,4 +127,4 @@ Developed by **Gaurav Dubey**
 
 ---
 
-⭐ If you like this project, don't forget to star the repository!
+⭐ If you found this project helpful, don’t forget to star the repository!
