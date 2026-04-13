@@ -1,10 +1,10 @@
-🌾 Smart Crop Recommendation System (AI Pro)
+# 🌾 Smart Crop Recommendation System (AI Pro)
 
 A machine learning-powered web application that recommends the most suitable crops based on soil nutrients, environmental conditions, and real-time weather data using an interactive dashboard.
-Through this application it becomes easier for farmers to grow crop accordinh to current weather of their states and district.
+
 ---
 
-🚀 Live Demo
+## 🚀 Live Demo
 
 👉 ("https://smart-crop-recommendation-gphxrem9nkbdwfxhykq93c.streamlit.app/")
 
@@ -28,7 +28,7 @@ This project provides an intelligent solution for crop selection by combining ma
 
 ---
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 | Category      | Tools Used                       |
 | ------------- | -------------------------------- |
@@ -43,14 +43,13 @@ This project provides an intelligent solution for crop selection by combining ma
 
 📸 Preview
 
-## 📸 Preview
-
 <p align="center">
-  <img src="Output.png.png" width="800"/>
+  <img src="assets/Output.png" width="800"/>
 </p>
 
 ---
-⚙️ Installation & Setup
+
+## ⚙️ Installation & Setup
 
 1️⃣ Clone the repository
 
