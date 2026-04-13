@@ -46,6 +46,11 @@ This project provides an intelligent solution for crop selection by combining ma
 <p align="center">
   <img src="assets/Output.png" width="800"/>
 </p>
+<br>
+<p align="center">
+ <img src="assets/Output2.png" width="800"/>
+</p>
+
 
 ---
 
