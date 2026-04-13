@@ -1,4 +1,4 @@
-🌾 Smart Crop Recommendation System (AI Pro)
+<h1>🌾 Smart Crop Recommendation System</h1>
 
 A machine learning-powered web application that recommends the most suitable crops based on soil nutrients, environmental conditions, and real-time weather data using an interactive dashboard.
 
@@ -6,19 +6,19 @@ A machine learning-powered web application that recommends the most suitable cro
 
 ------------------------------------------------------------------------------
 
-🚀 Live Demo
+<h1>🚀 Live Demo</h1>
 By clicking on this link you can use the application.
 👉 ("https://smart-crop-recommendation-gphxrem9nkbdwfxhykq93c.streamlit.app/")
 
 -------------------------------------------------------------------------------
 
-📌 Overview
+<h1>📌 Overview</h1>
 
 This project provides an intelligent solution for crop selection by combining machine learning, real-time weather data, and agricultural rules. Users can select their location (state & district), input soil parameters, and get accurate crop recommendations through a clean and interactive interface.
 
 ---------------------------------------------------------------------------------
 
-✨ Features
+<h1>✨ Features</h1>
 
 * 🌍 Location-based selection (State & District dropdown)
 * 🌡️ Real-time weather integration (Temperature & Humidity)
@@ -29,7 +29,7 @@ This project provides an intelligent solution for crop selection by combining ma
 * ⚡ Fast and responsive UI using Streamlit
 
 ----------------------------------------------------------------------------------
-🛠️ Tech Stack
+<h1>🛠️ Tech Stack</h1>
 
 | Category      | Tools Used                       |
 | ------------- | -------------------------------- |
@@ -42,7 +42,7 @@ This project provides an intelligent solution for crop selection by combining ma
 
 --------------------------------------------------------------------------------
 
-📸 Preview
+<h1>📸 Preview</h1>
 
 <p align="center">
   <img src="assets/Output.png" width="800"/>
@@ -54,7 +54,7 @@ This project provides an intelligent solution for crop selection by combining ma
 
 
 ------------------------------------------------------------------------------
-📁 Project Structure
+<h1>📁 Project Structure</h1>
 
 ```bash
 Crop Analysis/
@@ -72,7 +72,7 @@ Crop Analysis/
 
 -------------------------------------------------------------------------------
 
-🧠 How It Works
+<h1>🧠 How It Works</h1>
 
 1. User selects **State & District**
 2. App fetches **real-time weather data**
@@ -83,7 +83,7 @@ Crop Analysis/
 
 -------------------------------------------------------------------------------
 
-🌱 Use Case
+<h1>🌱 Use Case</h1>
 
 * Helps farmers choose the best crops
 * Useful for agriculture students & research
@@ -91,15 +91,15 @@ Crop Analysis/
 
 -------------------------------------------------------------------------------
 
-⚠️ Disclaimer
+<h1>⚠️ Disclaimer<h1>
 
 * Predictions are AI-based and may not be 100% accurate
 * Dataset is realistic but not official government data
 
 ------------------------------------------------------------------------------
 
-👨‍💻 Author
-<h1>Gaurav Dubey</h1>
+<h1>👨‍💻 Author</h1>
+<h2>Gaurav Dubey</h2>
 
 
 
