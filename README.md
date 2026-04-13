@@ -1,20 +1,22 @@
-# 🌾 Smart Crop Recommendation System (AI Pro)
+🌾 Smart Crop Recommendation System (AI Pro)
 
 A machine learning-powered web application that recommends the most suitable crops based on soil nutrients, environmental conditions, and real-time weather data using an interactive dashboard.
 
----
+* Through this application it becomes easier for farmers to choose crops accordingly to weather.
 
-## 🚀 Live Demo
+------------------------------------------------------------------------------
 
+🚀 Live Demo
+By clicking on this link you can use the application.
 👉 ("https://smart-crop-recommendation-gphxrem9nkbdwfxhykq93c.streamlit.app/")
 
----
+-------------------------------------------------------------------------------
 
 📌 Overview
 
 This project provides an intelligent solution for crop selection by combining machine learning, real-time weather data, and agricultural rules. Users can select their location (state & district), input soil parameters, and get accurate crop recommendations through a clean and interactive interface.
 
----
+---------------------------------------------------------------------------------
 
 ✨ Features
 
@@ -26,9 +28,8 @@ This project provides an intelligent solution for crop selection by combining ma
 * 📊 Model accuracy display
 * ⚡ Fast and responsive UI using Streamlit
 
----
-
-## 🛠️ Tech Stack
+----------------------------------------------------------------------------------
+🛠️ Tech Stack
 
 | Category      | Tools Used                       |
 | ------------- | -------------------------------- |
@@ -39,7 +40,7 @@ This project provides an intelligent solution for crop selection by combining ma
 | API           | OpenWeatherMap                   |
 | Visualization | Streamlit UI                     |
 
----
+--------------------------------------------------------------------------------
 
 📸 Preview
 
@@ -52,39 +53,7 @@ This project provides an intelligent solution for crop selection by combining ma
 </p>
 
 
----
-
-## ⚙️ Installation & Setup
-
-1️⃣ Clone the repository
-
-```bash
-git clone https://github.com/your-username/smart-crop-recommendation.git
-cd smart-crop-recommendation
-```
-
-2️⃣ Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-3️⃣ Add API Key
-
-Edit `weather.py` and add your OpenWeatherMap API key:
-
-```python
-API_KEY = "your_api_key_here"
-```
-
-4️⃣ Run the app
-
-```bash
-streamlit run app.py
-```
-
----
-
+------------------------------------------------------------------------------
 📁 Project Structure
 
 ```bash
@@ -101,7 +70,7 @@ Crop Analysis/
      └── output.png
 ```
 
----
+-------------------------------------------------------------------------------
 
 🧠 How It Works
 
@@ -110,8 +79,9 @@ Crop Analysis/
 3. User inputs soil parameters (N, P, K, pH, rainfall)
 4. ML model predicts **Top crops**
 5. Output is refined using **agriculture-based rules**
+6. It also shows profits in one acer.
 
----
+-------------------------------------------------------------------------------
 
 🌱 Use Case
 
@@ -119,18 +89,19 @@ Crop Analysis/
 * Useful for agriculture students & research
 * Supports data-driven farming decisions
 
----
+-------------------------------------------------------------------------------
 
 ⚠️ Disclaimer
 
 * Predictions are AI-based and may not be 100% accurate
 * Dataset is realistic but not official government data
 
----
+------------------------------------------------------------------------------
 
 👨‍💻 Author
+<h1>Gaurav Dubey</h1>
 
-Developed by **Gaurav Dubey**
+
 
 
 	
