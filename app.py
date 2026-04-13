@@ -5,7 +5,7 @@ from datetime import datetime
 from model import train_model
 from weather import get_weather, adjust_for_location
 
-# ------------------ SEASON FUNCTION ------------------
+# SEASON FUNCTION 
 def get_season(month_num):
     if month_num in [6,7,8,9,10]:
         return "Kharif"
@@ -14,7 +14,7 @@ def get_season(month_num):
     else:
         return "Zaid"
 
-# ------------------ RAINFALL ESTIMATION ------------------
+# RAINFALL ESTIMATION 
 def estimate_rainfall(month):
     if month in [6,7,8,9]:  
         return 200
@@ -25,7 +25,7 @@ def estimate_rainfall(month):
     else:
         return 50
 
-# ------------------ PROFIT DATA ------------------
+# PROFIT DATA 
 crop_data = {
     "rice": {"yield": 25, "price": 2000, "cost": 20000},
     "wheat": {"yield": 20, "price": 2200, "cost": 18000},
@@ -44,25 +44,25 @@ def calculate_profit(crop):
     profit = revenue - data["cost"]
     return profit
 
-# ------------------ LOAD MODEL ------------------
+# LOAD MODEL
 @st.cache_resource
 def load_model():
     return train_model()
 
 model, accuracy = load_model()
 
-# ------------------ UI ------------------
+# UI 
 st.set_page_config(page_title="Smart Crops Recommendation", page_icon="🌾", layout="wide")
-st.title("🌾 Smart Crop Recommendation System (AUTO + PROFIT AI)")
+st.title("🌾 Smart Crop Recommendation System")
 
-# ------------------ LOAD LOCATION DATA ------------------
+# LOAD LOCATION DATA 
 base_path = os.path.dirname(__file__)
 file_path = os.path.join(base_path, "india_districts.csv")
 
 df_loc = pd.read_csv(file_path)
 df_loc.columns = df_loc.columns.str.strip().str.lower()
 
-# ------------------ DROPDOWN ------------------
+# DROPDOWN
 state = st.selectbox("🌍 Select State", sorted(df_loc['state'].unique()))
 
 district = st.selectbox(
@@ -70,23 +70,23 @@ district = st.selectbox(
     sorted(df_loc[df_loc['state'] == state]['district'].unique())
 )
 
-# ------------------ AUTO MONTH ------------------
+# AUTO MONTH
 current_month = datetime.now().month
 season = get_season(current_month)
 
 st.info(f"📅 Current Month: {current_month}")
 st.info(f"🌱 Season: {season}")
 
-# ------------------ AUTO RAINFALL ------------------
+# AUTO RAINFALL 
 rainfall = estimate_rainfall(current_month)
 
-# ------------------ SOIL INPUT ------------------
+# SOIL INPUT 
 N = st.slider("Nitrogen (N)", 0, 100, 50)
 P = st.slider("Phosphorus (P)", 0, 100, 50)
 K = st.slider("Potassium (K)", 0, 100, 50)
 ph = st.slider("Soil pH", 0.0, 14.0, 6.5)
 
-# ------------------ PREDICTION ------------------
+# PREDICTION
 if st.button("Predict Crop"):
     try:
         temp, humidity = get_weather(district)
